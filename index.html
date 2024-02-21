@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Youssef Allam</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
@@ -37,6 +37,7 @@
         justify-content: space-around;
         align-items: center;
         background-color: #FFBE98;
+        flex-direction: column;
     }
     .benr2 {
         display: flex;
@@ -44,7 +45,10 @@
     }
     .benr2 model-viewer{
         width: 50px;
+        height: 50px;
+        border: 2px solid #fff7f1;
         margin: 5px;
+        border-radius: 5px;
     }
     header{
         display: flex;
@@ -70,6 +74,7 @@
         flex-wrap: wrap;
     }
     .text, .tex-m{
+        text-align: center;
         direction: rtl;
         margin: 7px;
     }
@@ -94,28 +99,31 @@
         text-decoration: none;
     }
     footer{
-        height: 300px;
-        background-color: black;
+        height: 200px;
+        background-color: #1D2B53;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         text-align: center;
         color: white;
+        flex-direction: column;
+    }
+    ul{
+        list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 77%;
+    }
+    ul a {
+        color: white;
+        text-decoration: none;
     }
 </style>
 <body>
     <div class="wts">
         <a href="https://wa.me/+201002645722"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
     </div>
-    <!-- <header>
-        <img src="./0001-removebg-preview.png" class="logo" alt="">
-        <div class="montg">
-            <div class="mont">تيشرتات</div>
-            <div class="mont">بناطيل</div>
-            <div class="mont">هواتف</div>
-            <div class="mont">اجهزه كهربائيه</div>
-        </div>
-    </header> -->
+    
     <div class="baner">
     <model-viewer
     id="model-viewer"
@@ -134,12 +142,6 @@
     oncontextmenu="return false;"
     >
 </model-viewer>
-<div class="tex-m">
-    <h3>تيشرت صيفي</h3>
-    <p>مرحبا يمكنني انشاء اي صفحة ويب بهذا الشكل او الشكل الذي تريده والدقه المطلوبه لاي منتج ويمكن ايضا التعديل على سله و زد وشوبيفاي وانشاء اي فكره تريدها</p>
-    <p>هذه فقط نبذه بسيطه عن طريقة عرض المنتج </p>
-</div>
-</div>
 <div class="benr2">
     <model-viewer
     id="model-viewer"
@@ -194,6 +196,15 @@ oncontextmenu="return false;"
 </model-viewer>
 <br>
 </div>
+<div class="tex-m">
+    <h3>تيشرت صيفي</h3>
+    <br>
+    <p>تيشيرت صيفي مثالي يجمع بين الأناقة والراحة خلال فصل الصيف. يتميز هذا التيشيرت بتصميم عصري ومريح يجعله مثاليًا للأنشطة اليومية في الطقس الدافئ. يتوفر في مجموعة متنوعة من الألوان والأنماط لتناسب أذواق واحتياجات كل شخص.
+    <br>
+    <br>
+        بفضل توافر مجموعة واسعة من الأحجام، يمكن للجميع الاستمتاع بالراحة والأناقة معًا. إنه الخيار المثالي لقضاء يوم ممتع على الشاطئ، أو للتجول في المدينة، أو حتى للاسترخاء في المنزل.</p>
+</div>
+</div>
 <!-- <div class="bn">
     <img src="./plen/svg.svg" alt="">
 </div> -->
@@ -218,14 +229,20 @@ oncontextmenu="return false;"
 >
 </model-viewer>
 <div class="text">
-    <h3>زجاجة عطر <span>3d</span></h3>
-    <p>مرحبا يمكنني انشاء اي صفحة ويب بهذا الشكل او الشكل الذي تريده والدقه المطلوبه لاي منتج ويمكن ايضا التعديل على سله و زد وشوبيفاي وانشاء اي فكره تريدها</p>
-    <p>هذه فقط نبذه بسيطه عن طريقة عرض المنتج </p>
+    <h3>زجاجة عطر </h3>
+    <br>
+    <p>برفان رجالي فاخر يجسد الأناقة والجاذبية بأسلوب مميز. يأتي هذا العطر برائحة تتميز بالتوازن المثالي بين الحداثة والتقليد، مما يجعله مناسبًا لكل الفصول ولكل المناسبات.
+        <br>
+        تفوح من هذا العطر النغمات العليا برفقة نفحات منعشة من الحمضيات مثل البرغموت والليمون، ممزوجة برائحة دافئة وحارة من الفلفل الأسود. تتلاشى هذه النغمات تدريجياً لتفسح المجال لقلب العطر الزهري الفاخر، حيث تتراقص نفحات الياسمين والورد مع لمسات خفيفة من اللافندر، مما يضيف طابعًا أنيقًا وراقيًا للعطر.</p>
 </div>
 </div>
 </div>
 <footer>
-    <h2>ملاحظه هامه هذه نبذه بسيطه عن مهاراتي في برمجة صفحات الويب هذه الصفحه تعرض جزء من مهارات عرض المنتجات</h2>
+    <ul>
+        <li><a href="https://mostaql.com/u/youssef_allam/portfolio"><i class="fa-solid fa-code"></i> : Youssef Allam</a></li>
+        <li><a href="https://t.me/youssefallam"><i class="fa-brands fa-telegram"></i> : Youssef Allam</a></li>
+    </ul>
+    <h2>W-2-Code</h2>
 </footer>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     
